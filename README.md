@@ -47,7 +47,7 @@ Max daily insulin fast, max daily insulin slow, total daily fast insulin, total 
 **Glucose Metrics:**
 Glucose linear regression slope, glucose evening low and peak, daily glucose minimum, standard deviation of glucose differences, coefficient of glucose variation
 
-# 4. Everion Global Only
+# 4. Everion Daily Only
 **Glucose-related:**
 Glucose, hypoglycemia flag
 
@@ -60,7 +60,7 @@ Gender, age, weight, height, BMI, basal percentage, basal total
 **Heart-related:**
 Heart rate variability evening low and peak, heart rate variability minimum
 
-# 5. No Calculated Globals
+# 5. No Calculated Daily
 **Core Features:**
 Glucose, hypoglycemia flag, heart rate, perfusion index, motion activity, activity classification, heart rate variability, respiration rate, energy, core temperature, temperature local, barometer pressure, GSR electrode, health score, training effect score, activity score, richness score, blood pulse wave, temperature object, temperature barometer
 
