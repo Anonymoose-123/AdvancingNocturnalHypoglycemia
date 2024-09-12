@@ -1,6 +1,6 @@
 Repository for the paper "Advancing Beyond Glucose-Only Methods for Predicting Overnight Nocturnal Hypoglycemia in Children with Diabetes".
 
-Below are the 6 feature sets compared in the "Advancing Beyond Glucose-Only Methods for Predicting Overnight Nocturnal Hypoglycemia in Children with Diabetes" paper.
+Below are the 7 feature sets compared in the "Advancing Beyond Glucose-Only Methods for Predicting Overnight Nocturnal Hypoglycemia in Children with Diabetes" paper.
 
 # 1. All Features
 **Glucose-related:**
@@ -67,7 +67,21 @@ Glucose, hypoglycemia flag, heart rate, perfusion index, motion activity, activi
 **Insulin-related:**
 Max insulin fast, max insulin slow, total insulin fast, total insulin slow
 
-# 6. Personalized Glucose
+# 6. Glucose Normal
+
+**Core Features:**
+Glucose, hypoglycemia flag, heart rate, heart rate variability, number of steps \\
+
+**Insulin & Diabetes Data:**
+Max insulin fast, max insulin slow, total insulin fast, total insulin slow, glycated hemoglobin (HbA1c) reading, total daily insulin dose
+
+**Demographics:**
+Gender, age, weight, height, BMI, basal percentage, basal total
+
+**Glucose Metrics**
+glucose linear regression slope, glucose evening low, and peak, daily glucose minimum, standard deviation of the glucose differences, coefficient of glucose variation.
+
+# 7. Personalized Glucose
 **Glucose-related:**
 Glucose personalized, hypoglycemia events, glucose linear regression slope, glucose evening low and peak, daily glucose minimum, standard deviation of glucose differences, coefficient of glucose variation
 
